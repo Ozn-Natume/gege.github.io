@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0; 
+}
+.video > video {
+  width: 300px;
+}
+
+div {
+  margin: auto;
+  text-align: center;
+  padding-top: 50px;
+}
+button {
+  width: 80px;
+  height: 40px;
+  font-size: 15px;
+  margin-top: 35px;
+}
+footer > div {
+  margin-bottom: 10px;
+}
+/* リンク */
+a:link {
+  color: #1779ba;
+}
+a:visited {
+  color: #1779ba;
+}
+/* 最初のページtextについて */
+.text-botom {
+  width: 80%;
+}
+.text {
+  width: 80%;
+}
+.text > h3 {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+li {
+  text-align: left;
+  margin-top: 5px;
+}
+.text > h2 {
+  margin-top: 15px;
+}
+
+/* 最後のページ */
+.last-p {
+    width: 90%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
