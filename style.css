@@ -56,3 +56,26 @@ li {
     text-align: center;
 }
 
+/* 最初の分岐 */
+.box{
+  width: 150px;
+  height: 150px;
+  border-radius: 5px;
+  background-color: rgb(204, 204, 204);
+  margin-top: 20px;
+  padding: 0;
+  font-size: 100px;
+}
+.box > a:link{
+  text-decoration: none;
+  color: aliceblue;
+}
+.box > a:visited{
+  color: aliceblue;
+}
+.box:hover{
+  background-color: rgb(138, 166, 226);
+}
+#box2 {
+  margin-bottom: 30px;
+}
